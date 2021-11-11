@@ -1,0 +1,46 @@
+print("Select operation from the given: + - / * ** // % : ")
+op = input()
+if op == "+":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of addition x+y is:", x+y)
+elif op == "-":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of substruction x-y is:", x-y)
+elif op == "/":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of division x/y is:", x/y)
+elif op == "*":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of multiplication x*y is:", x*y)
+elif op == "**":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter power: ")
+    y = float(input())
+    print("Result of exponentiation x**y is:", x**y)
+elif op == "//":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of floor division x//y is:", x//y)
+elif op == "%":
+    print("Enter x: ")
+    x = float(input())
+    print("Enter y: ")
+    y = float(input())
+    print("Result of modulus x%y is:", x%y)
+else:
+    print("Unknown choice, programm has eneded")
